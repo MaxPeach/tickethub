@@ -19,7 +19,7 @@ namespace tickethub.Controllers
         }
 
         [HttpGet]
-        public  IActionResult Get(Ticket ticket)
+        public IActionResult Get()
         {
             return Ok("Hello from Ticket Controller");
         }
